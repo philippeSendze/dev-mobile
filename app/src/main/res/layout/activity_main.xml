@@ -4,67 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F7F9F8"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="160dp"
+        android:layout_width="155dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="48dp"
         android:onClick="showAllTasks"
         android:text="@string/all_tast_text"
-        app:layout_constraintBottom_toTopOf="@+id/button_done"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
         android:id="@+id/button_done"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="236dp"
+        android:layout_width="155dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
         android:onClick="showDoneTasks"
         android:text="@string/done_tast_text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/button_all"
+        app:layout_constraintStart_toStartOf="@+id/button_all"
+        app:layout_constraintTop_toBottomOf="@+id/button_all" />
 
     <Button
         android:id="@+id/button_not_done"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="40dp"
         android:onClick="showNotDoneTasks"
         android:text="@string/not_done_tast_text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/button_done"
+        app:layout_constraintStart_toStartOf="@+id/button_done"
+        app:layout_constraintTop_toBottomOf="@+id/button_done" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="108dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="@string/hint"
         android:importantForAutofill="no"
+        android:inputType="text"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_not_done"
-        android:inputType="text" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="156dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="24dp"
         android:onClick="onClick"
         android:text="@string/button_search"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toEndOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon192" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

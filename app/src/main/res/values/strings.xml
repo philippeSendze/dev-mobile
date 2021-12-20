@@ -3,6 +3,6 @@
     <string name="all_tast_text">Tout afficher</string>
     <string name="done_tast_text">Tâches faites</string>
     <string name="not_done_tast_text">Tâches à faire</string>
-    <string name="hint">Entrer une tâche</string>
-    <string name="button_search">Chercher</string>
+    <string name="hint">Rechercher une tâche</string>
+    <string name="button_search">Rechercher</string>
 </resources>

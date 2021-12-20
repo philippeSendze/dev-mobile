@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Acer/Desktop/GI5 2021/INGENIERIE MOBILE 2021/Lkenach-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.152" />
+        <entry key="..\:/Users/Acer/Desktop/GI5 2021/INGENIERIE MOBILE 2021/Lkenach-main/app/src/main/res/drawable/ic_baseline_add.xml" value="0.25625" />
+        <entry key="..\:/Users/Acer/Desktop/GI5 2021/INGENIERIE MOBILE 2021/Lkenach-main/app/src/main/res/layout/activity_all_tast.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/Acer/Desktop/GI5 2021/INGENIERIE MOBILE 2021/Lkenach-main/app/src/main/res/layout/activity_done_task.xml" value="0.6" />
+        <entry key="..\:/Users/Acer/Desktop/GI5 2021/INGENIERIE MOBILE 2021/Lkenach-main/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/Desktop/GI5 2021/INGENIERIE MOBILE 2021/Lkenach-main/app/src/main/res/layout/activity_not_done_task.xml" value="0.24010416666666667" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.27384615384615385" />
         <entry key="app/src/main/res/drawable/ic_baseline_add.xml" value="0.278125" />
         <entry key="app/src/main/res/drawable/ic_baseline_edit.xml" value="0.27384615384615385" />
