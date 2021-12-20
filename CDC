@@ -1,0 +1,12 @@
+Choisir notre propre logo (par Mehdi)
+1ère page : listview pour afficher les catégories (all, important, planned, assigned to me, done)
+2ème page : listage de la catégorie cliquée
+3ème page : ajouter une tâche quand on clique sur +
+-si on est sur la 1ère page, on doit remplir un formulaire qui contient les 2 champs (catégorie et tâche)
+-si on est dans une catégorie, on ajoute seulement la tâche
+La loupe (l’icône de recherche) sera juste à côté du nom de notre application.
+Et un petit bouton pour choisir un thème (optionel)	
+
+
+
+Nous allons créer donc trois activités (page d'accueil, 

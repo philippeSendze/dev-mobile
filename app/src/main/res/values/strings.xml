@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lkenach</string>
+    <string name="all_tast_text">Tout afficher</string>
+    <string name="done_tast_text">Tâches faites</string>
+    <string name="not_done_tast_text">Tâches à faire</string>
+    <string name="hint">Entrer une tâche</string>
+    <string name="button_search">Chercher</string>
+</resources>
